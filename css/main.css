@@ -1,0 +1,19 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+.main-heading {
+  font-size: 72px;
+  line-height: 86px;
+}
+.secondary-heading {
+  font-size: 36px;
+  line-height: 43px;
+}
+.third-heading {
+  font-size: 18px;
+  line-height: 22px;
+}
+.text {
+  font-size: 14px;
+  line-height: 17px;
+}
