@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cloud budget management for everyone">
   <title>CloudBudget</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
@@ -15,10 +16,38 @@
 </head>
 
 <body>
-  <h1 class="main-heading">heading one</h1>
-  <h2 class="secondary-heading">Heading two</h2>
-  <h3 class="third-heading">Heading thee</h3>
-  <p class="text">Plain text</p>
+  <div class="header">
+    <button class="header-btn-login">
+      login
+    </button>
+    <button class="header-btn-singup">
+      sing up
+    </button>
+  </div>
+
+  <div class="form">
+    <aria-label>
+      <input class="user-first-name-input" name="user_first_name" type="text" placeholder="First Name">
+    </aria-label>
+    <aria-label>
+      <input class="user-last-name-input" name="user_last_name" type="text" placeholder="Last Name">
+    </aria-label>
+    <aria-label>
+      <input class="user-phone-input" name="user_phone" type="tel" placeholder="Phone Number">
+    </aria-label>
+    <aria-label>
+      <select class="user-service-select" name="user_service">
+        <option selected>Select Service</option>
+        <option value="1">Service 1</option>
+        <option value="2">Service 2</option>
+        <option value="3">Service 3</option>
+      </select>
+    </aria-label>
+    <button class="form-btn-submit" type="submit">
+      submit now
+    </button>
+  </div>
+
 </body>
 
 </html>

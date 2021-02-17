@@ -1,19 +1,108 @@
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato';
 }
-.main-heading {
-  font-size: 72px;
-  line-height: 86px;
+.header {
+  height: 100px; 
+  background: url(../images/background.png);
 }
-.secondary-heading {
-  font-size: 36px;
-  line-height: 43px;
-}
-.third-heading {
-  font-size: 18px;
-  line-height: 22px;
-}
-.text {
-  font-size: 14px;
+.header-btn-login {
+  width: 100px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  color: #ffffff;
+  text-transform: uppercase;
   line-height: 17px;
+  cursor: pointer;
+}
+.header-btn-login:hover {
+  background-color: #da8890;
+}
+.header-btn-login:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #252121;
+}
+.header-btn-login:active {
+  background-color: #ad0303;
+  color: #131010;
+}
+.header-btn-singup {
+  width: 160px;
+  height: 60px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  color: #ed4c5c;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.header-btn-singup:hover {
+  background-color: #5c5253;
+}
+.header-btn-singup:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #252121;
+}
+.header-btn-singup:active {
+  background-color: #ad0303;
+  color: #131010;
+}
+.form {
+  width: 700px;
+}
+.user-first-name-input,
+.user-last-name-input {
+  width: 255px;
+  height: 60px;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  font-size: 16px;
+  margin: 15px;
+}
+.user-first-name-input::placeholder,
+.user-last-name-input::placeholder,
+.user-phone-input::placeholder {
+  padding: 0 10px 0 30px;
+}
+.user-phone-input,
+.user-service-select {
+  width: 540px;
+  height: 60px;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  font-size: 16px;
+  margin: 15px;
+}
+.user-service-select {
+  padding-left: 30px;
+}
+.user-first-name-input:focus,
+.user-last-name-input:focus,
+.user-phone-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #252121;
+}
+.form-btn-submit {
+  width: 160px;
+  height: 60px;
+  text-transform: uppercase;
+  background-color: #ed4c5c;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #ffffff;
+  margin: 15px;
+}
+.form-btn-submit:hover {
+  background: #da8890;
+}
+.form-btn-submit:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #252121;
+}
+.form-btn-submit:active {
+  background: #ad0303;
+  color: #131010;
 }
