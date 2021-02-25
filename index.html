@@ -20,33 +20,35 @@
     <div class="row">
       <div class="col col-3">
         <a class="header-logo" href="">
-          <img src="./icons/cloud.svg" alt="logo" loading="lazy">CloudBudget
+          <img class="header-img" src="./icons/cloud.svg" alt="logo"> CloudBudget
         </a>
       </div>
       <div class="col col-6">
-        <nav>
-          <ul>
-            <li class="header-li">
+        <nav class="heager-nav">
+          <ul class="header-nav_ul">
+            <li class="header-nav_li">
               <a class="header-a" href="">overview</a>
             </li>
-            <li class="header-li">
+            <li class="header-nav_li">
               <a class="header-a" href="">features</a>
             </li>
-            <li class="header-li">
+            <li class="header-nav_li">
               <a class="header-a" href="">technology</a>
             </li>
-            <li class="header-li">
+            <li class="header-nav_li">
               <a class="header-a" href="">contact</a>
             </li>
-            <li class="header-li">
+            <li class="header-nav_li">
               <a class="header-a" href="">sign up</a>
             </li>
           </ul>
         </nav>
       </div>
-      <button class="header-btn-login">
-        login
-      </button>
+      <div class="col col-3">
+        <button class="header-btn" aria-label="login">
+          login
+        </button>
+      </div>
     </div>
   </header>
 
@@ -57,10 +59,11 @@
         <div class="row">
           <div class="col col-6 offset-3">
             <p class="text">Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial of
-              Up to €4.99</p>
+              <br> Up to €4.99
+            </p>
           </div>
         </div>
-        <button class="main-btn main-btn--alt">sing up</button>
+        <button class="main-btn main-btn--alt" aria-label="sing up">sing up</button>
       </div>
     </section>
 
@@ -68,14 +71,18 @@
       <div class="container">
         <div class="row">
           <div class="col col-5">
-            <h2 class="secondary-title mb-56">Easy to Use Cloud Budget Management Software</h2>
+            <h2 class="secondary-title cloud-budget_title">Easy to Use Cloud Budget Management Software</h2>
             <p class="plaine-text">Our software is made so you can access and manage your budget and expenses online at
               any time from any device. It provides detailed income and expense reports with graphs so you can easilly
               see your spending patterns and budget at a glance. Read below to find out more.
             </p>
           </div>
           <div class="col col-6 offset-1">
-            <video class="main-video" src="./videos/BIG_BANNY.mp4" controls muted poster="./images/poster.jpg"></video>
+            <div class="video-wrap">
+              <video class="main-video" src="./videos/BIG_BANNY.mp4" controls muted
+                poster="./images/poster.jpg"></video>
+              <button class="main-btn-play" aria-label="play">&#9658;</button>
+            </div>
           </div>
         </div>
       </div>
@@ -83,7 +90,7 @@
 
     <section class="features-section">
       <div class="container">
-        <h2 class="secondary-title text-centre features-section-title">Features</h2>
+        <h2 class="secondary-title feature-title">Features</h2>
         <div class="row">
           <div class="col col-4">
             <div class="feature-card">
@@ -121,13 +128,17 @@
         </div>
       </div>
     </section>
+
     <section class="technology-section">
       <div class="container">
-        <h2 class="secondary-title text-centre features-section-title">Technology</h2>
+        <h2 class="secondary-title technology-title">Technology</h2>
         <div class="row">
           <div class="col col-3">
             <div class="technology-card">
-              <img src="./icons/icon-cloud.svg" alt="Cloud Storage" loading="lazy">
+              <span class="technology-card_number">01</span>
+              <div class="technology-card_img-wrap">
+                <img class="technology-card_img" src="./icons/icon-cloud.svg" alt="Cloud Storage">
+              </div>
               <h3 class="technology-card_title">Cloud Storage</h3>
               <p class="technology-card_txt">Access your account from anywhere in the world on any
                 device</p>
@@ -135,21 +146,30 @@
           </div>
           <div class="col col-3">
             <div class="technology-card">
-              <img src="./icons/icon-secure.svg" alt="Cloud Storage" loading="lazy">
+              <span class="technology-card_number">02</span>
+              <div class="technology-card_img-wrap">
+                <img class="technology-card_img" src="./icons/icon-secure.svg" alt="Cloud Storage">
+              </div>
               <h3 class="technology-card_title">Secure</h3>
               <p class="technology-card_txt">All your information is stored on secure cloud servers</p>
             </div>
           </div>
           <div class="col col-3">
             <div class="technology-card">
-              <img src="./icons/icon-pdf-download.svg" alt="Cloud Storage" loading="lazy">
+              <span class="technology-card_number">03</span>
+              <div class="technology-card_img-wrap">
+                <img class="technology-card_img" src="./icons/icon-pdf-download.svg" alt="Cloud Storage">
+              </div>
               <h3 class="technology-card_title">PDF Download</h3>
               <p class="technology-card_txt">Download any of your reports in PDF format</p>
             </div>
           </div>
           <div class="col col-3">
             <div class="technology-card">
-              <img src="./icons/icon-csv-download.svg" alt="Cloud Storage" loading="lazy">
+              <span class="technology-card_number">04</span>
+              <div class="technology-card_img-wrap">
+                <img class="technology-card_img" src="./icons/icon-csv-download.svg" alt="Cloud Storage">
+              </div>
               <h3 class="technology-card_title">CSV Download</h3>
               <p class="technology-card_txt">All your information is stored on secure cloud servers</p>
             </div>
@@ -162,25 +182,25 @@
       <div class="container">
         <div class="row">
           <div class="col col-5">
-            <h2 class="secondary-title mb-32">Stay focused on saving money</h2>
-            <p class="plaine-text mb-35">It is important to stay focused on saving money in any way you can. We help
+            <h2 class="secondary-title saving-money-title">Stay focused on saving money</h2>
+            <p class="plaine-text s-m-text">It is important to stay focused on saving money in any way you can. We help
               you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply
               join today to get started!
             </p>
             <ul class="saving-money-ul">
               <li class="saving-money-li">
-                <img src="./icons/ion-logo-google-playstore.svg" alt="google playstore">
+                <img class="icon-img" src="./icons/ion-logo-google-playstore.svg" alt="google playstore">
               </li>
               <li class="saving-money-li">
-                <img src="./icons/ion-logo-apple-appstore.svg" alt="apple appstore">
+                <img class="icon-img" src="./icons/ion-logo-apple-appstore.svg" alt="apple appstore">
               </li>
               <li class="saving-money-li">
-                <img src="./icons/simple-icons_windows.svg" alt="windows">
+                <img class="icon-img" src="./icons/simple-icons_windows.svg" alt="windows">
               </li>
             </ul>
           </div>
           <div class="col col-6 offset-1">
-            <iframe class="iframe" title="Location of the Museum of Interesting Science" seamless
+            <iframe class="saving-money-iframe" title="Location of the Museum of Interesting Science"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2748.444850550622!2d30.747026515109138!3d46.45969587448731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c633d86691cbe7%3A0xa529f2c900d55963!2z0JzRg9C30LXQuSDQmNC90YLQtdGA0LXRgdC90L7QuSDQvdCw0YPQutC4!5e0!3m2!1sru!2sua!4v1613304636744!5m2!1sru!2sua"
               loading="lazy">
             </iframe>
@@ -193,7 +213,7 @@
       <div class="container">
         <div class="row">
           <div class="col col-5">
-            <h2 class="secondary-title mb-32">Contact</h2>
+            <h2 class="secondary-title contact-title">Contact</h2>
             <p class="plain-text">Questions or concerns? Just fill out the form below and our support team
               will get back to you within 24 hours. But I must explain to you how all this mistaken idea of
               denouncing pleasure and praising pain was born and I will give you a complete account of the
@@ -205,23 +225,27 @@
             <form>
               <div class="row">
                 <div class="col col-6">
-                  <input class="main-input mb-24" aria-label="user first name" name="user_first_name" type="text"
+                  <input class="main-input" aria-label="user first name" name="user_first_name" type="text"
                     placeholder="First Name">
                 </div>
                 <div class="col col-6">
-                  <input class="main-input mb-24" aria-label="user last name" name="user_last_name" type="text"
+                  <input class="main-input" aria-label="user last name" name="user_last_name" type="text"
                     placeholder="Last Name">
                 </div>
               </div>
-              <input class="main-input mb-24" aria-label="user phone name" name="user_phone" type="tel"
-                placeholder="Phone Number">
-              <select class="main-select mb-24" aria-label="user service" name="user_service">
-                <option selected>Select Service</option>
-                <option value="1">Service 1</option>
-                <option value="2">Service 2</option>
-                <option value="3">Service 3</option>
-              </select>
-              <button class="main-btn" type="submit">Submit Now</button>
+              <div class="row">
+                <div class="col col-12">
+                  <input class="main-input" aria-label="user phone name" name="user_phone" type="tel"
+                    placeholder="Phone Number">
+                  <select class="main-select" aria-label="user service" name="user_service">
+                    <option selected>Select Service</option>
+                    <option value="1">Service 1</option>
+                    <option value="2">Service 2</option>
+                    <option value="3">Service 3</option>
+                  </select>
+                  <button class="main-btn" type="submit">Submit Now</button>
+                </div>
+              </div>
             </form>
           </div>
         </div>
@@ -229,55 +253,58 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="footer">
     <div class="container">
       <div class="row">
         <div class="col col-3">
-          <h3>Address</h3>
-          <p>Pipang Ltd, Griva Digeni,
+          <h3 class="footer-title">Address</h3>
+          <p class="footer-text">Pipang Ltd, Griva Digeni, <br>
             81-83 Jacovides Tower, 1st Floor
             1090 Picosia USA
           </p>
         </div>
         <div class="col col-3">
-          <h3>Services</h3>
-          <ul>
-            <li>
-              <a href="">Overview</a>
+          <h3 class="footer-title">Services</h3>
+          <ul class="footer-ul">
+            <li class="footer-li">
+              <a class="footer-a" href="">Overview</a>
             </li>
-            <li>
-              <a href="">Features</a>
+            <li class="footer-li">
+              <a class="footer-a" href="">Features</a>
             </li>
-            <li>
-              <a href="">Technology</a>
+            <li class="footer-li">
+              <a class="footer-a" href="">Technology</a>
             </li>
-            <li>
-              <a href="">Terms & Conditions</a>
+            <li class="footer-li">
+              <a class="footer-a" href="">Terms & Conditions</a>
             </li>
-            <li>
-              <a href="">Privecy</a>
+            <li class="footer-li">
+              <a class="footer-a" href="">Privecy</a>
             </li>
           </ul>
         </div>
         <div class="col col-3">
-          <h3>Get in Touch</h3>
-          <a href="mailto:info@cloudbudget.com">info@cloudbudget.com</a>
-          <a href="tel:+18447217120">+1 844-721-7120</a>
-          <ul>
+          <h3 class="footer-title">Get in Touch</h3>
+          <ul class="footer-ul">
             <li class="footer-li">
-              <img src="./icons/facebook.svg" aria-label="our facebook profile" alt="facebook">
+              <a href="mailto:info@cloudbudget.com">info@cloudbudget.com</a>
             </li>
             <li class="footer-li">
-              <img src="./icons/linkedin.svg" aria-label="our linkedin profile" alt="linkedin">
-            </li>
-            <li class="footer-li">
-              <img src="./icons/twitter.svg" aria-label="our twitter profile" alt="twitter">
+              <a href="tel:+18447217120">+1 844-721-7120</a>
             </li>
           </ul>
+          <img class="icon-image" src="./icons/facebook.svg" aria-label="our facebook profile" alt="facebook">
+          <img class="icon-image" src="./icons/linkedin.svg" aria-label="our linkedin profile" alt="linkedin">
+          <img class="icon-image" src="./icons/twitter.svg" aria-label="our twitter profile" alt="twitter">
         </div>
         <div class="col col-3">
-          <h3>We Support</h3>
+          <h3 class="footer-title">We Support</h3>
           <img src="./images/payments.png" alt="viza, mastercard">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-3">
+          <p class="footer-text text-copyright">Copyright 2020 CloudBudget</p>
         </div>
       </div>
     </div>
