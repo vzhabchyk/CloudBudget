@@ -6,7 +6,6 @@
 body {
   margin: 0;
   font-family: 'Lato';
-  text-align: justify;
 }
 h1,
 h2,
@@ -32,12 +31,12 @@ button {
   background: none;
   border: none;
 }
-.conteiner {
-max-width: 1140px;
-padding-right: 15px;
-padding-left: 15px;
-margin-left: auto;
-margin-right: auto;
+.container {
+  max-width: 1140px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .row {
   margin-left: 15px;
@@ -54,40 +53,40 @@ margin-right: auto;
   padding-right: 15px;
 }
 .col-1 {
-width: 8.33333%;
+  width: 8.33333%;
 }
 .col-2 {
-width: 16.666666%;
+  width: 16.666666%;
 }
 .col-3 {
-width: 25%;
+  width: 25%;
 }
 .col-4 {
-width: 33.33333%;
+  width: 33.33333%;
 }
 .col-5 {
-width: 41.66666%;
+  width: 41.66666%;
 }
 .col-6 {
-width: 50%;
+  width: 50%;
 }
 .col-7 {
-width: 58.33333%;
+  width: 58.33333%;
 }
 .col-8 {
-width: 66.66666%;
+  width: 66.66666%;
 }
 .col-9 {
-width: 75%;
+  width: 75%;
 }
 .col-10 {
-width: 83.33333%;
+  width: 83.33333%;
 }
 .col-11 {
-width: 91.66666%;
+  width: 91.66666%;
 }
 .col-12 {
-width: 100%;
+  width: 100%;
 }
 .offset-1 {
   margin-left: 8.33333%;
@@ -148,12 +147,13 @@ width: 100%;
   margin: 0;
   padding: 0;
 }
-.header-nav_li {
+.header-nav-list-item {
   display: inline-block;
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
   padding: 12px 14px;
+  list-style-type: none;
 }
 .header-a {
   color: #fff;
@@ -296,6 +296,7 @@ width: 100%;
 .feature-card_txt {
   font-size: 14px;
   line-height: 22px;
+  text-align: center;
 }
 .feature-card_link {
   font-size: 12px;
@@ -335,6 +336,7 @@ width: 100%;
 .technology-card_txt {
   font-size: 14px;
   line-height: 17px;
+  text-align: center;
 }
 .saving-money-section {
   height: 500px;
@@ -350,6 +352,7 @@ width: 100%;
 .s-m-text {
   color: #fff;
   margin-bottom: 34px;
+  text-align: justify;
 }
 .saving-money-ul {
   padding-left: 0;
@@ -392,10 +395,10 @@ width: 100%;
   border: 2px solid #474646;
 }
 .main-select {
-margin-bottom: 28px;
+  margin-bottom: 28px;
 }
 .main-select {
-appearance: none;
+  appearance: none;
 }
 .footer {
   height: 436px;
