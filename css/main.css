@@ -324,10 +324,11 @@ button {
   line-height: 1;
   color: rgba(16, 16, 16, 0.08);
 }
-.technology-card_img-wrap {
-  min-height: 80px;
+.tech-icon {
+  display: inline-block;
+  font-size: 80px;
+  color: #ed4c5c;
   margin-top: -50px;
-  font-size: 0;
 }
 .technology-card_title {
   font-size: 18px;
@@ -358,7 +359,9 @@ button {
   padding-left: 0;
   margin-top: 0;
 }
-.icon-img {
+.icon-logo {
+  font-size: 28px;
+  color: #fff;
   margin-right: 28px;
 }
 .saving-money-li {
@@ -430,9 +433,14 @@ button {
   font-size: 14px;
   line-height: 22px;
 }
-.icon-image {
+.footer-icon {
+  display: inline-block;
+  font-size: 22px;
   margin-top: 12px;
   margin-right: 15px;
+}
+.footer-icon:hover {
+  color: rgb(97, 4, 134);
 }
 .text-copyright {
   margin-top: 80px;
